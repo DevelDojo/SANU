@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    height: fit-content;
+    min-height: 100vh;
+    background-color: peachpuff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50;
+    padding: 30px;
+}
+
+.emo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50;
+}
+
+div{
+    /* display: flex;
+    flex-direction: column;
+    gap: 50; */
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.happy, .sad, .angry, .scared{
+    margin: 20px 15px;
+    padding: 7px;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn {
+    display: flex;
+    gap: 30px;
+}
+
+.yes {
+    padding: 6px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    color: white;
+    font-style: normal;
+    background-color: rgb(56, 255, 1);
+}
+
+.no,
+#not {
+    padding: 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    background-color: red;
+}
+
+#not-allowed{
+    display: none;
+}
+
+.hide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Yes page */
+
+.yes-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: peachpuff;
+}
+
+.back {
+    padding: 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    background-color: rgb(135, 58, 0);
+}
